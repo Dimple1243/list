@@ -2,4 +2,7 @@
 # print(thislist)
 
 
+# a = ["Kotak", "HDFC", "RBL", "SBI" "Bank of Baroda"]
+# for i in a:
+#     print(i)
 
