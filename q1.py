@@ -1,0 +1,20 @@
+# class Solution:
+#     def subtractProductAndSum(self, n: int) -> int:
+#         sum=0
+#         product=1
+#         while n>0:
+#             product*=(n%10)
+#             sum+=(n%10)
+#             n//=10
+#         return product-sum
+
+
+
+n=int(input("enter the num:- "))
+sum=0
+m=1
+while n>0:
+    m*=(n%10)
+    sum+=(n%10)
+    n//=10
+print(m-sum)
